@@ -35,6 +35,6 @@ Then, just run the make command, `make`. Running this command will generate a `.
 
 ## Example
 
-The module found here is an example of creating a parallel driver for the ws2812b. It takes an array of ints, and uses the first 4 LSBs to write to GPIO ports 21, 13, 14, and 15 on the ESP32. This is functioning but does not have full documentation. If you wish to use this library, please leave a ticket and I will add the necessary documentation.
+The module found here is an example of creating a parallel driver for the ws2812b. It takes an array of ints, and uses the first 4 LSBs to write to GPIO ports 12, 13, 14, and 15 on the ESP32. This is functioning but does not have full documentation. If you wish to use this library, please leave a ticket and I will add the necessary documentation.
 
 Warning, although I made a mask, it is buggy. Using this library will overwrite all other GPIO values.
